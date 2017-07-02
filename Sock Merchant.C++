@@ -20,11 +20,9 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
-
 using namespace std;
 const int N = 300;
 int col[N], n, c, bnd, ans;
-
 int main() {
     scanf("%d",&n);
     ans = bnd = 0;
