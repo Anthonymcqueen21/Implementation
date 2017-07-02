@@ -5,7 +5,6 @@
 #include <algorithm>
 using namespace std;
 int n, m, s;
-
 int main() {
    int T;
    scanf("%d",&T);
