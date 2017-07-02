@@ -2,11 +2,8 @@
 #include <algorithm>
 #include <functional>
 using namespace std;
-
 int a[1000];
-
 int main() {
-    
     int n;
     cin >> n;
     for (int i = 0; i < n; i++)
@@ -15,9 +12,7 @@ int main() {
     int idx = n - 1;
     cout << n << endl;
     while (a[0] != 0) {
-        
         for (int i = 0; i < n; i++) {
-            
             a[i] -= a[idx];
             if (!a[i])
                 {
