@@ -24,7 +24,6 @@ using namespace std;
 const int N = 30;
 int h[N];
 char s[N];
-
 int main() {
     for(int i = 0; i < 26; ++ i)
         scanf("%d",&h[i]);
