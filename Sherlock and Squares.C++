@@ -1,11 +1,9 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 int foo(int n) {
    return (int)(sqrt(1.0 * n));
 }
-
 int main() {
    int t;
    cin >> t;
