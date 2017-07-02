@@ -12,7 +12,6 @@ public class DrawingBook {
        int fromEnd = calcualteFromEnd(pageSize, targetPage);
        return fromBegin > fromEnd ? fromEnd : fromBegin;
     }
-    
     static int calculateFromBegin(int targetPage){
        return targetPage / 2;
     }
