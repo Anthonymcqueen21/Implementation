@@ -9,7 +9,6 @@ using namespace std;
 const int N = 110;
 int cntk[N];
 int n, a, k;
-
 int main() {
    int ans = 0;
    scanf("%d%d",&n,&k);
