@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-
 public class BonAppetit {
     public static void main(String[] args) {
         // TODO Auto-generated
@@ -11,7 +10,6 @@ public class BonAppetit {
         for(int a = 0; a < n; a++) {
            arr[a] = input.nextInt();
         }
-        
         long sum = 0;
         for(int a = 0; a < n; a++) {
              sum += arr[a];
