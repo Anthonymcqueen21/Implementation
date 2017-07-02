@@ -24,7 +24,6 @@ using namespace std;
 const int N = 200;
 int a[N], b[N], n, m, v, u, bnd, c;
 int p[N], pnum[N], num;
-
 void init(){
     num = 0;
     bool isPrime = false;
@@ -40,7 +39,6 @@ void init(){
             p[num ++] = i;
     }
 }
-
 void getPrimeFactor(int v){
     int cnt = 0;
     for(int i = 0; i < num && p[i] <= v; ++ i){
@@ -52,7 +50,6 @@ void getPrimeFactor(int v){
         pnum[i] = max(pnum[i], cnt);
     }
 }
-
 void getMultiValue(){
     u = 1;
     for(int i = 0; i < num; ++ i){
@@ -62,7 +59,6 @@ void getMultiValue(){
         }
     }
 }
-
 int main() {
    init();
    scanf("%d%d",&n,&m);
