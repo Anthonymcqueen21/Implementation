@@ -1,10 +1,8 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
-
 using namespace std;
 typedef long long 11;
-
 int main() {
    string s; 
    cin >> s;
