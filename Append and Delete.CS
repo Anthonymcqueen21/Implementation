@@ -17,10 +17,8 @@ namespace _02_Implementation
                  break;
               }
           }
-          
           int d = s.Length - i;
           int a = t.Length - i;
-          
           int difference = k - d - a;
           if (difference < 0)
           {
