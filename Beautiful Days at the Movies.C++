@@ -5,7 +5,6 @@
 using namespace std;
 long long v, k, s, t, diff;
 int ans;
-
 long long revs(long long v) {
     long long res = 0;
     while(v > 0) {
@@ -14,7 +13,6 @@ long long revs(long long v) {
     }
     return res;
 }
-
 int main() {
     ans = 0;
     scanf("%11d%11d%11d",&s,&t,&k);
