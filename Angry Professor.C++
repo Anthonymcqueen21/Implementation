@@ -10,7 +10,7 @@ int main() {
              int val;
              cin >> val;
              if(val <= 0) 
-                 cnt++;
+             cnt++;
         }
         cout << (cnt >= k ? "NO" : "YES") << endl;
     }
