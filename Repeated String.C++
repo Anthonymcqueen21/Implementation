@@ -22,7 +22,7 @@ int main() {
          if(s[i] == 'a') ans++;
       }
    }
-   count<<ans<<endl;
-   return 0;
+  count<<ans<<endl;
+  return 0;
 }
    
