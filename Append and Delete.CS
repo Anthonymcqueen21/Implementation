@@ -14,7 +14,7 @@ namespace _02_Implementation
           {
               if (s[i] != t[i])
               {
-                 break;
+              break;
               }
           }
           int d = s.Length - i;
@@ -22,7 +22,7 @@ namespace _02_Implementation
           int difference = k - d - a;
           if (difference < 0)
           {
-             Console.WriteLine("NO");
+          Console.WriteLine("NO");
           }
           else
           {
